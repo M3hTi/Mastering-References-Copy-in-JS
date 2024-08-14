@@ -1,0 +1,25 @@
+:root{
+    --bg : 60 3.3% 17.8%;
+    --txt : white
+}
+
+
+
+
+* , *::before , *::after{
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(var(--bg));
+    color: var(--txt);
+    font-family: 'fira code';
+    font-size: 18px;
+    text-align: center;
+}
+.js-heading, .js-p {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+}
+
